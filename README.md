@@ -16,3 +16,5 @@ Use this as a starting point to complete the WDD 231 personal activity. We will 
 ## Other commands
 
 - `npm run build` to build final files when you are ready to turn in.
+
+Personal URL - https://venerable-lebkuchen-240373.netlify.app/
