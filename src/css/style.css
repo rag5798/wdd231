@@ -281,7 +281,53 @@ margin: 5px 5px;
 #park-header a{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-self: center;
   text-decoration: none;
   color: white;
+}
+
+.intro{
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 25px;
+}
+
+.info{
+  text-align: center;
+  margin: 25px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links p{
+  text-align: center;
+}
+
+.links img{
+  height: 250px;
+  width: 95%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 400px)  {
+  .link_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .links img{
+    height: 125px;
+    width: 95%;
+    max-width: 175px;
+  }
+
+  .links{
+    width: 300px;
+  }
 }
